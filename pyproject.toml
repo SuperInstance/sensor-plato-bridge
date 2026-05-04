@@ -1,0 +1,9 @@
+[project]
+name = "sensor-plato-bridge"
+version = "0.1.0"
+description = "Maritime sensor data → PLATO tiles"
+requires-python = ">=3.10"
+dependencies = ["requests>=2.31.0"]
+
+[project.scripts]
+sensor-poll = "sensor_plato_bridge:main"
